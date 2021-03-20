@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+}
+body {
+	background: url("DWSH-126.jpg");
+	background-attachment: fixed;
+}
+div.app {
+	width: 1200px;
+	margin: auto;
+}
+div.nav {
+	background-image: linear-gradient(/*down, */#202020 5%, #fb00ffd9 105%);
+	height: 50px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	position: relative;
+	border-bottom: 5px solid #b900a7;
+}
+nav {
+	height: 28px;
+	margin-left: 20px;
+	padding-top: 0px;
+}
+div.logo {
+	float: left;
+	margin-left: 15px;
+	margin-top: -1px;
+}
+.logo1 {
+	margin-right: 7px;
+	margin-top: -12px;
+	width: 97px;
+}
+h1.teamname, img.logo1 {
+	float: left;
+}
+li {
+	list-style: none;
+	float: left;
+	margin: 0px 25px;
+}
+a {
+	font-family: monospace;
+	font-weight: bold;
+	color: currentColor;
+	text-decoration: none;
+	font-size: 25px;
+	transition: color 0.5s;
+	/*transition-timing-function:ease-in-out;*/
+}
+a:hover {
+	color: fuchsia;
+	padding-bottom: 4px;
+	border-bottom: 5px solid fuchsia;
+}
+a:active {
+	color: azure;
+	padding-bottom: 4px;
+	border-bottom: 5px solid azure;
+}
+.bannerPic {
+	margin-bottom: 20px;
+}
+.bannerdes {
+	font-size: 35px;
+	font-family: fantasy;
+	color: #000000;
+	text-align: center;
+}
+div.deco1 {
+	width: 1200px;
+	height: 40px;
+	/*	padding-bottom: 0px;
+	border-bottom:0px;*/
+	color: hsla(311, 100%, 50%, 1.00)
+}
